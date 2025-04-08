@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI("AIzaSyAgU67wkTvzCb7MNjwYM7QYwvRsJCfHPqY");
+// Use environment variable instead of hardcoded API key
+const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GEMINI_API_KEY);
 
 function App() {
   const [llmResponse, setLlmResponse] = useState("");
