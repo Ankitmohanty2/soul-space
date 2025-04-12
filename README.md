@@ -65,7 +65,7 @@ The following technologies are used in Soul Space:
 
 1. Clone the repository to your local machine using the following command:
     ```bash
-    git clone https://github.com/Soul-Space-Platform/website.git
+    git clone https://github.com/Ankitmohanty2/soul-space.git
     ```
 
 2. Navigate to the project directory:
